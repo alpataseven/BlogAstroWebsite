@@ -1,0 +1,11 @@
+---
+// src/components/BlogList.astro
+import BlogCard from './BlogCard.jsx';
+import { posts } from '../data/posts';
+---
+
+<section class="py-10 px-6 max-w-6xl mx-auto grid gap-6 md:grid-cols-2">
+  {posts.map((post) => (
+    <BlogCard client:load post={post} />
+  ))}
+</section>
