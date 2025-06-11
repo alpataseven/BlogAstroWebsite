@@ -1,4 +1,3 @@
-// src/components/BlogCard.jsx
 export default function BlogCard({ post }) {
   return (
     <div className="card bg-base-100 shadow-xl">
@@ -18,5 +17,5 @@ export default function BlogCard({ post }) {
         </div>
       </div>
     </div>
-  )
+  );
 }

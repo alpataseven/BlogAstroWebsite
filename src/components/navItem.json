@@ -1,0 +1,27 @@
+[
+    {
+        "navItemId": 1,
+        "navItemName": "Kültür",
+        "navItemLink": "#"
+    },
+    {
+        "navItemId": 2,
+        "navItemName": "Sanat",
+        "navItemLink": "#"
+    },
+    {
+        "navItemId": 3,
+        "navItemName": "Edebiyat",
+        "navItemLink": "#"
+    },
+    {
+        "navItemId": 4,
+        "navItemName": "Müzik",
+        "navItemLink": "#"
+    },
+    {
+        "navItemId": 5,
+        "navItemName": "Fotoğraf",
+        "navItemLink": "#"
+    }
+]

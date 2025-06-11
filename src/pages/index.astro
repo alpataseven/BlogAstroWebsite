@@ -1,14 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Navbar from "../components/Navbar.jsx";
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 import BlogList from "../components/BlogList.astro";
 ---
 
 <Layout>
 	<Navbar />
-	<section class="text-center py-10">
-    <h1 class="text-4xl font-bold mb-4">📘 Blog Yazıları</h1>
-    <p class="text-lg text-500">Web geliştirme, Astro, React ve daha fazlası.</p>
 	<BlogList />
-  </section>
+	<Footer />
 </Layout>
